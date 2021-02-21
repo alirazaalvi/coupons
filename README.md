@@ -10,6 +10,7 @@ Table of Contents
 Prerequisites
 -------------
 - [Node.js 10.0+](http://nodejs.org)
+- [Docker](https://docs.docker.com/compose/install/) (Optional)
 
 Getting Started
 ---------------
@@ -33,6 +34,9 @@ npm start
 
 # Access the application
 http://localhost:8000
+
+# Run using docker
+docker-compose up
 
 # Test
 npm test
