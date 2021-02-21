@@ -16,7 +16,7 @@ export const getCoupon = (customerId: string, expiredInDays: number = 30): Coupo
       userId: '',
       couponCode: Math.random().toString(36).substring(7),
       expiry: today.setDate(today.getDate() + expiredInDays).toString(),
-  }
+  };
 };
 
 /**

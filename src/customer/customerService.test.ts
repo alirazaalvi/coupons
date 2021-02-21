@@ -1,5 +1,5 @@
 import { getCoupons, insertCoupons } from './customerService';
-import testData from '../../test/testData.json';
+import testData from '../test/testData.json';
 import { db } from '../shared/local_db';
 
 describe('customer service generate coupons', () => {

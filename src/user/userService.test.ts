@@ -1,5 +1,5 @@
 import { getCoupon } from './userService';
-import { populateCoupons, cleanup } from '../../test/populateMockDb';
+import { populateCoupons, cleanup } from '../test/populateMockDb';
 
 describe('user service', () => {
   it('should return valid response', () => {

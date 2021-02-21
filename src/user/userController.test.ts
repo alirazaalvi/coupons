@@ -1,6 +1,6 @@
 import request from 'supertest';
 import app from '../server';
-import { cleanup, populateCoupons } from '../../test/populateMockDb';
+import { cleanup, populateCoupons } from '../test/populateMockDb';
 
 // TODO: It needed more tests
 describe('user controller', () => {
