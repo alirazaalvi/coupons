@@ -1,0 +1,16 @@
+version: '3'
+services:
+  coupons:
+    build:
+      context: ./
+    container_name: coupons
+    ports:
+      - 8000:8000
+    networks:
+      - skynet
+    environment:
+      - env=prod
+    volumes:
+      - ./back/src:/src
+networks:
+  skynet:
